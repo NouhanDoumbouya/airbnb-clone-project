@@ -27,7 +27,7 @@ By completing this project, learners will:
 
 ## 🧪 Task List
 
-- [0. Project Requirements](#requirements)
+- [0. Project Requirements](#-requirements)
 - [1. Team Roles](#-team-roles)
 - [2. Technology Stack Overview](#-technology-stack)
 - [3. Database Design Overview](#-database-design)
