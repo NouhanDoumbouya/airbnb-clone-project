@@ -70,8 +70,8 @@ To complete the tasks, you must:
 
 | Technology       | Purpose                                                                 |
 |------------------|-------------------------------------------------------------------------|
-| ### Django [![Django](https://github.com/NouhanDoumbouya/airbnb-clone-project/blob/main/images/django.png)](https://docs.djangoproject.com/)| Core backend web framework for handling models, views, and APIs         |
-| **Django REST**  | Used to expose RESTful endpoints for frontend consumption               |
+| **Django** [![Django](https://github.com/NouhanDoumbouya/airbnb-clone-project/blob/main/images/django.png)](https://docs.djangoproject.com/)| Core backend web framework for handling models, views, and APIs         |
+| **Django REST** [![DjangoRestFramework](https://github.com/NouhanDoumbouya/airbnb-clone-project/blob/main/images/drf-logo2.png)](https://www.django-rest-framework.org/) | Used to expose RESTful endpoints for frontend consumption               |
 | **GraphQL**      | Offers efficient querying of complex data relationships                 |
 | **PostgreSQL**   | Relational database for managing structured data                        |
 | **Docker**       | Containerization for consistent environments                            |
