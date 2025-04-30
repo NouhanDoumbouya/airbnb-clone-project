@@ -27,9 +27,7 @@ By completing this project, learners will:
 
 ## 🧪 Task List
 
-## 🧪 Task List
-
-- [0. Project Initialization](#project-initialization)
+- [0. Project Requirements](#requirements)
 - [1. Team Roles](#-team-roles)
 - [2. Technology Stack Overview](#-technology-stack)
 - [3. Database Design Overview](#-database-design)
@@ -48,7 +46,7 @@ To complete the tasks, you must:
 - Be experienced with Django and MySQL/PostgreSQL.
 - Be familiar with software lifecycle, CI/CD, and security best practices.
 - Know tools like Docker and GitHub Actions.
-
+- Understanding of the technology stacks
 ---
 
 ## 👥 Team Roles
