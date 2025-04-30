@@ -25,6 +25,20 @@ By completing this project, learners will:
 
 ---
 
+## 🧪 Task List
+
+## 🧪 Task List
+
+- [0. Project Initialization](#project-initialization)
+- [1. Team Roles](#-team-roles)
+- [2. Technology Stack Overview](#-technology-stack)
+- [3. Database Design Overview](#-database-design)
+- [4. Feature Breakdown](#-feature-breakdown)
+- [5. API Security Overview](#-api-security)
+- [6. CI/CD Pipeline Overview](#-cicd-pipeline)
+
+---
+
 ## ✅ Requirements
 
 To complete the tasks, you must:
@@ -132,32 +146,6 @@ Each of these measures ensures that user data, payments, and application integri
   - **GitHub Actions**: Automates workflow for build, test, and deploy.
   - **Docker**: Containerizes application for consistent deployment.
   - **Heroku / AWS / DigitalOcean**: (Optional) Hosts the deployed application.
-
----
-
-## 🧪 Task List
-
-### ✅ 0. Project Initialization
-- [x] GitHub repo created: `airbnb-clone-project`
-- [x] `README.md` initialized with project goals and stack overview
-
-### ✅ 1. Team Roles
-- [x] Documented in the **Team Roles** section
-
-### ✅ 2. Technology Stack Overview
-- [x] Listed and explained in the **Technology Stack** section
-
-### ✅ 3. Database Design Overview
-- [x] Tables, fields, and relationships defined under **Database Design**
-
-### ✅ 4. Feature Breakdown
-- [x] Described in the **Feature Breakdown** section
-
-### ✅ 5. API Security Overview
-- [x] Addressed in **API Security**
-
-### ✅ 6. CI/CD Pipeline Overview
-- [x] Explained in the **CI/CD Pipeline** section
 
 ---
 
