@@ -1,4 +1,7 @@
-![AIRBNB](https://github.com/NouhanDoumbouya/airbnb-clone-project/blob/main/AIRBNB.jpeg)
+
+<p align="center">
+  <img src="https://github.com/NouhanDoumbouya/airbnb-clone-project/blob/main/AIRBNB.jpeg" alt="Airbnb Image" width="400"/>
+</p>
 
 # 🏡 Airbnb Clone Backend Project
 
