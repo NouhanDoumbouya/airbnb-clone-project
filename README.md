@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://github.com/NouhanDoumbouya/airbnb-clone-project/blob/main/AIRBNB.jpeg" alt="Airbnb Image" width="400" style="border-radius: 10px;"/>
+  <img src="https://github.com/NouhanDoumbouya/airbnb-clone-project/blob/main/AIRBNB.jpeg" alt="Airbnb Image" width="400" style="border-radius: 30px;"/>
 </p>
 
 # 🏡 Airbnb Clone Backend Project
