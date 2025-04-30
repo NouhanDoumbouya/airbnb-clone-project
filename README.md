@@ -70,10 +70,7 @@ To complete the tasks, you must:
 
 | Technology       | Purpose                                                                 |
 |------------------|-------------------------------------------------------------------------|
-| <p align="center">
-  <img src="https://github.com/NouhanDoumbouya/airbnb-clone-project/blob/main/images/django.png" alt="Django Logo" style="width:150px; height:auto; border-radius: 10px;" />
-</p>
-**Django**       | Core backend web framework for handling models, views, and APIs         |
+| ![](https://github.com/NouhanDoumbouya/airbnb-clone-project/blob/main/images/django.png)**Django**       | Core backend web framework for handling models, views, and APIs         |
 | **Django REST**  | Used to expose RESTful endpoints for frontend consumption               |
 | **GraphQL**      | Offers efficient querying of complex data relationships                 |
 | **PostgreSQL**   | Relational database for managing structured data                        |
