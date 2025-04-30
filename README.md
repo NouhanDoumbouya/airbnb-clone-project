@@ -72,11 +72,11 @@ To complete the tasks, you must:
 |------------------|-------------------------------------------------------------------------|
 | **Django** [![Django](https://github.com/NouhanDoumbouya/airbnb-clone-project/blob/main/images/django.png)](https://docs.djangoproject.com/)| Core backend web framework for handling models, views, and APIs         |
 | **Django REST** [![DjangoRestFramework](https://github.com/NouhanDoumbouya/airbnb-clone-project/blob/main/images/drf-logo2.png)](https://www.django-rest-framework.org/) | Used to expose RESTful endpoints for frontend consumption               |
-| **GraphQL**      | Offers efficient querying of complex data relationships                 |
-| **PostgreSQL**   | Relational database for managing structured data                        |
-| **Docker**       | Containerization for consistent environments                            |
-| **Celery + Redis**| Background tasks (email sending, notifications) and caching            |
-| **GitHub Actions**| CI/CD pipeline automation                                              |
+| **GraphQL** [![GraphQL](https://github.com/NouhanDoumbouya/airbnb-clone-project/blob/main/images/graphql.png)](https://graphql.org/)     | Offers efficient querying of complex data relationships                 |
+| **PostgreSQL** [![PostgreSQL](https://github.com/NouhanDoumbouya/airbnb-clone-project/blob/main/images/Postgresql_elephant.svg.png)](https://www.postgresql.org/)  | Relational database for managing structured data                        |
+| **Docker** [![Docker]()https://github.com/NouhanDoumbouya/airbnb-clone-project/blob/main/images/docker.jpg](https://www.docker.com/)      | Containerization for consistent environments                            |
+| **Celery + Redis** [![Celery+Redis](https://github.com/NouhanDoumbouya/airbnb-clone-project/blob/main/images/redis_celery.jpg)](https://docs.celeryq.dev/en/3.1/getting-started/brokers/redis.html) | Background tasks (email sending, notifications) and caching            |
+| **GitHub Actions** [![GithubActions](https://github.com/NouhanDoumbouya/airbnb-clone-project/blob/main/images/github_actions.jpeg)](https://github.com/features/actions) | CI/CD pipeline automation                                              |
 
 ---
 
