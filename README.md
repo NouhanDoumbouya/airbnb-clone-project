@@ -21,13 +21,13 @@ Welcome to **StayEase**, a full-stack clone of the Airbnb platform. This project
 - [🚀 Deployment Strategy](#deployment-strategy)
 - [🧪 Testing Strategy](#testing-strategy)
 - [👥 Project Roles and Responsibilities](#project-roles-and-responsibilities)
-- [📅 Timeline](#timeline)
+- [📅 FRONTEND Timeline](#frontend-timeline)
 - [📝 Contributing](#contributing)
 - [📎 Resources](#resources)
 
 ---
 
-## 🎯 Project Overview
+##  Project Overview
 
 **StayEase** is a feature-rich accommodation booking platform, aiming to deliver:
 
@@ -38,7 +38,7 @@ Welcome to **StayEase**, a full-stack clone of the Airbnb platform. This project
 
 ---
 
-## 🖥️ Frontend Overview
+##  Frontend Overview
 
 ### Technologies (Frontend)
 
@@ -115,7 +115,7 @@ All components are modular, reusable, and mobile-responsive.
 
 ---
 
-## 🗄️ Backend Overview
+##  Backend Overview
 
 ### Technologies (Backend)
 
@@ -179,7 +179,7 @@ All components are modular, reusable, and mobile-responsive.
 
 ---
 
-## 👥 Project Roles and Responsibilities
+##  Project Roles and Responsibilities
 
 | Role | Responsibilities |
 |------|------------------|
@@ -194,7 +194,7 @@ All components are modular, reusable, and mobile-responsive.
 
 ---
 
-## 📅 Timeline
+##  FRONTEND Timeline
 
 | Date | Milestone |
 |------|-----------|
@@ -206,7 +206,7 @@ All components are modular, reusable, and mobile-responsive.
 
 ---
 
-## 📝 Contributing
+##  Contributing
 
 We welcome contributions! Here's how:
 
@@ -218,7 +218,7 @@ We welcome contributions! Here's how:
 
 ---
 
-## 📎 Resources
+##  Resources
 
 - [React Docs](https://reactjs.org/)
 - [Next.js Docs](https://nextjs.org/)
@@ -232,4 +232,4 @@ We welcome contributions! Here's how:
 
 ---
 
-<p align="center"><strong>Crafted by Team StayEase ✨ | 2025</strong></p>
+<p align="center"><strong>Crafted by NOUHAN DOUMBOUYA ✨ | 2025</strong></p>
