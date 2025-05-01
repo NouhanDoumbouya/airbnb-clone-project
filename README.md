@@ -106,7 +106,7 @@ Recognizing design specifications from Figma ensures accurate implementation of 
 
 ---
 
-### UI Components Patterns
+### UI Component Patterns
 
 | Component | Description |
 |-----------|-------------|
