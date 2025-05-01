@@ -1,5 +1,9 @@
 # 🏡 StayEase - Airbnb Clone Project
 
+<p align="center">
+  <img src="https://github.com/NouhanDoumbouya/airbnb-clone-project/blob/main/images/AIRBNB.jpeg" alt="Airbnb Image" width="400" style="border-radius: 30px;"/>
+</p>
+
 Welcome to **StayEase**, a full-stack clone of the Airbnb platform. This project demonstrates a modern booking system with features like property listings, detailed pages, user authentication, and secure checkout, all built using a scalable frontend and backend architecture.
 
 ---
@@ -119,11 +123,15 @@ All components are modular, reusable, and mobile-responsive.
 
 ### Technologies (Backend)
 
-- **Django** (Python-based framework)
-- **Django REST Framework** + **Graphene-Django (GraphQL)**
-- **PostgreSQL** for relational database
-- **JWT Authentication** for secure login
-- **Celery + Redis** for background tasks (emails, booking confirmations)
+| Technology       | Purpose                                                                 |
+|------------------|-------------------------------------------------------------------------|
+| **Django** [![Django](https://github.com/NouhanDoumbouya/airbnb-clone-project/blob/main/images/django.png)](https://docs.djangoproject.com/)| Core backend web framework for handling models, views, and APIs         |
+| **Django REST** [![DjangoRestFramework](https://github.com/NouhanDoumbouya/airbnb-clone-project/blob/main/images/drf-logo2.png)](https://www.django-rest-framework.org/) | Used to expose RESTful endpoints for frontend consumption               |
+| **GraphQL** [![GraphQL](https://github.com/NouhanDoumbouya/airbnb-clone-project/blob/main/images/graphql.png)](https://graphql.org/)     | Offers efficient querying of complex data relationships                 |
+| **PostgreSQL** [![PostgreSQL](https://github.com/NouhanDoumbouya/airbnb-clone-project/blob/main/images/Postgresql_elephant.svg.png)](https://www.postgresql.org/)  | Relational database for managing structured data                        |
+| **Docker** [![Docker](https://github.com/NouhanDoumbouya/airbnb-clone-project/blob/main/images/docker.jpg)](https://www.docker.com/)      | Containerization for consistent environments                            |
+| **Celery + Redis** [![Celery+Redis](https://github.com/NouhanDoumbouya/airbnb-clone-project/blob/main/images/redis_celery.jpg)](https://docs.celeryq.dev/en/3.1/getting-started/brokers/redis.html) | Background tasks (email sending, notifications) and caching            |
+| **GitHub Actions** [![GithubActions](https://github.com/NouhanDoumbouya/airbnb-clone-project/blob/main/images/github_actions.jpeg)](https://github.com/features/actions) | CI/CD pipeline automation                                              |
 
 ---
 
