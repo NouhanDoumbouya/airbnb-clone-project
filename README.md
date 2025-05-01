@@ -1,160 +1,235 @@
+# 🏡 StayEase - Airbnb Clone Project
 
-<p align="center">
-  <img src="https://github.com/NouhanDoumbouya/airbnb-clone-project/blob/main/images/AIRBNB.jpeg" alt="Airbnb Image" width="400" style="border-radius: 30px;"/>
-</p>
-
-# 🏡 Airbnb Clone Backend Project
-
-> A real-world backend clone of Airbnb designed to simulate a robust booking platform using Django, PostgreSQL, GraphQL, and more.
+Welcome to **StayEase**, a full-stack clone of the Airbnb platform. This project demonstrates a modern booking system with features like property listings, detailed pages, user authentication, and secure checkout, all built using a scalable frontend and backend architecture.
 
 ---
 
-## 📖 About the Project
+## 📚 Table of Contents
 
-The **Airbnb Clone Project** is a comprehensive, real-world application designed to simulate the development of a robust booking platform like Airbnb. It involves a deep dive into full-stack development, focusing on backend systems, database design, API development, and application security.
-
-This project enables learners to understand complex architectures, workflows, and collaborative team dynamics while building a scalable web application.
-
----
-
-## 🎯 Learning Objectives
-
-By completing this project, learners will:
-
-- ✅ Master collaborative team workflows using GitHub.
-- 🧠 Deepen understanding of backend architecture and database design.
-- 🔒 Implement advanced security measures for APIs.
-- 🚀 Gain proficiency in CI/CD pipeline design and deployment.
-- 📚 Strengthen technical documentation and planning skills.
-- ⚙️ Integrate Django, MySQL/PostgreSQL, and GraphQL in a unified ecosystem.
-
----
-
-## 🧪 Task List
-
-- [0. Project Requirements](#-requirements)
-- [1. Team Roles](#-team-roles)
-- [2. Technology Stack Overview](#-technology-stack)
-- [3. Database Design Overview](#-database-design)
-- [4. Feature Breakdown](#-feature-breakdown)
-- [5. API Security Overview](#-api-security)
-- [6. CI/CD Pipeline Overview](#-cicd-pipeline)
+- [🎯 Project Overview](#project-overview)
+- [🖥️ Frontend Overview](#frontend-overview)
+  - [Technologies (Frontend)](#technologies-frontend)
+  - [UI/UX Design Planning](#uiux-design-planning)
+  - [Figma Design Specifications](#figma-design-specifications)
+  - [Primary Pages](#primary-pages)
+  - [UI Components](#ui-components)
+- [🗄️ Backend Overview](#backend-overview)
+  - [Technologies (Backend)](#technologies-backend)
+  - [API Endpoints](#api-endpoints)
+  - [Database Models](#database-models)
+  - [Authentication](#authentication)
+- [🚀 Deployment Strategy](#deployment-strategy)
+- [🧪 Testing Strategy](#testing-strategy)
+- [👥 Project Roles and Responsibilities](#project-roles-and-responsibilities)
+- [📅 Timeline](#timeline)
+- [📝 Contributing](#contributing)
+- [📎 Resources](#resources)
 
 ---
 
-## ✅ Requirements
+## 🎯 Project Overview
 
-To complete the tasks, you must:
+**StayEase** is a feature-rich accommodation booking platform, aiming to deliver:
 
-- Have a GitHub account.
-- Understand Markdown syntax.
-- Be experienced with Django and MySQL/PostgreSQL.
-- Be familiar with software lifecycle, CI/CD, and security best practices.
-- Know tools like Docker and GitHub Actions.
-- Understanding of the technology stacks
----
-
-## 👥 Team Roles
-
-| Role                 | Responsibilities                                                                 |
-|----------------------|----------------------------------------------------------------------------------|
-| 🧑‍💻 Backend Developer  | Build APIs, manage logic, implement features like auth, booking, and listings.     |
-| 🧠 Database Admin     | Design schema, write migration scripts, manage relationships and performance.    |
-| 🔐 Security Engineer  | Implement API auth, data validation, and user input sanitization.                |
-| ⚙️ DevOps Engineer    | Set up Docker, CI/CD, environment variables, and manage deployment pipelines.    |
-| 🧪 QA Engineer        | Write unit/integration tests and ensure code meets quality standards.            |
+- Intuitive search and filter system for users
+- Fully responsive UI/UX inspired by Airbnb
+- Real-time booking process with secure payment
+- Scalable architecture and modular component design
 
 ---
 
-## 💻 Technology Stack
+## 🖥️ Frontend Overview
 
-| Technology       | Purpose                                                                 |
-|------------------|-------------------------------------------------------------------------|
-| **Django** [![Django](https://github.com/NouhanDoumbouya/airbnb-clone-project/blob/main/images/django.png)](https://docs.djangoproject.com/)| Core backend web framework for handling models, views, and APIs         |
-| **Django REST** [![DjangoRestFramework](https://github.com/NouhanDoumbouya/airbnb-clone-project/blob/main/images/drf-logo2.png)](https://www.django-rest-framework.org/) | Used to expose RESTful endpoints for frontend consumption               |
-| **GraphQL** [![GraphQL](https://github.com/NouhanDoumbouya/airbnb-clone-project/blob/main/images/graphql.png)](https://graphql.org/)     | Offers efficient querying of complex data relationships                 |
-| **PostgreSQL** [![PostgreSQL](https://github.com/NouhanDoumbouya/airbnb-clone-project/blob/main/images/Postgresql_elephant.svg.png)](https://www.postgresql.org/)  | Relational database for managing structured data                        |
-| **Docker** [![Docker](https://github.com/NouhanDoumbouya/airbnb-clone-project/blob/main/images/docker.jpg)](https://www.docker.com/)      | Containerization for consistent environments                            |
-| **Celery + Redis** [![Celery+Redis](https://github.com/NouhanDoumbouya/airbnb-clone-project/blob/main/images/redis_celery.jpg)](https://docs.celeryq.dev/en/3.1/getting-started/brokers/redis.html) | Background tasks (email sending, notifications) and caching            |
-| **GitHub Actions** [![GithubActions](https://github.com/NouhanDoumbouya/airbnb-clone-project/blob/main/images/github_actions.jpeg)](https://github.com/features/actions) | CI/CD pipeline automation                                              |
+### Technologies (Frontend)
+
+- **React.js** with **Next.js** for Server-Side Rendering and Routing
+- **TypeScript** for scalable type-safe code
+- **TailwindCSS** for utility-first CSS
+- **Figma** for design prototyping and layout planning
+- **Redux Toolkit / Context API** for state management
 
 ---
 
-## 🗃️ Database Design
+### UI/UX Design Planning
 
-| Entity       | Fields Example | Relationships                                            |
-|--------------|----------------|-----------------------------------------------------------|
-| **User**     | id, name, email, password, is_host         | One user can own many properties and make many bookings   |
-| **Property** | id, title, description, location, owner_id | Belongs to a user (owner), has many bookings and reviews |
-| **Booking**  | id, user_id, property_id, checkin, checkout| Belongs to a user and a property                          |
-| **Review**   | id, user_id, property_id, rating, comment  | Belongs to a user and a property                          |
-| **Payment**  | id, booking_id, amount, status, timestamp  | Tied to a specific booking                               |
+#### Design Goals
 
-Relationships:
-- A **User** can create many **Properties**.
-- A **User** can make many **Bookings**.
-- A **Property** can have many **Bookings** and **Reviews**.
-- A **Booking** has one **Payment**.
+- Create an intuitive booking experience
+- Maintain visual consistency and fast-loading UI
+- Prioritize mobile responsiveness and accessibility
 
----
+#### Key Features
 
-## 🧩 Feature Breakdown
-
-### 👥 User Management
-- Allows users to sign up, log in, update profiles, and become hosts.
-- Provides authentication and authorization mechanisms using JWT.
-
-### 🏠 Property Management
-- Hosts can list, edit, and remove rental properties.
-- Each property includes description, price, photos, location, and availability.
-
-### 📆 Booking System
-- Users can book properties for a date range.
-- Handles availability, booking history, and conflicts.
-
-### 💳 Payment Processing
-- Secure handling of transactions for bookings.
-- Integrates with payment providers like Stripe/PayPal.
-
-### ⭐ Review System
-- Users can leave ratings and feedback on properties after a stay.
-- Reviews improve property visibility and host credibility.
+- Search and filter properties by criteria
+- View property details including gallery and reviews
+- Streamlined booking with confirmation
+- Secure user authentication and session management
 
 ---
 
-## 🔒 API Security
+### Figma Design Specifications
 
-Security is critical in handling sensitive data and preventing abuse.
+#### 🎨 Color Palette
 
-- **Authentication**: JWT-based auth for secure session handling.
-- **Authorization**: Role-based access to routes (e.g., host-only actions).
-- **Rate Limiting**: Prevents abuse and brute-force attacks.
-- **Input Validation**: Prevents SQL injection, XSS, and other attacks.
-- **HTTPS**: Encrypts communication between client and server.
-- **CSRF/XSRF Protection**: Prevents cross-site request forgery for state-changing actions.
+| Style | Hex Code |
+|-------|----------|
+| Primary | `#FF5A5F` |
+| Secondary | `#008489` |
+| Background | `#FFFFFF` |
+| Text | `#222222` |
+| Secondary Text | `#717171` |
 
-Each of these measures ensures that user data, payments, and application integrity remain protected.
+#### ✍️ Typography
 
----
+- **Primary Font**: Circular
+- **Headings**: Bold (700), 24px – 32px
+- **Body Text**: Medium (500), 16px
+- **Secondary**: Book (400), 14px
 
-## 🔄 CI/CD Pipeline
+#### Importance of Design Consistency
 
-**CI/CD (Continuous Integration & Continuous Deployment)** automates code testing, building, and deployment.
-
-- **Why it matters**: Reduces manual work, speeds up feedback loops, and ensures code reliability.
-- **What it does**:
-  - Runs tests automatically on pull requests.
-  - Deploys to staging or production after successful builds.
-- **Tools used**:
-  - **GitHub Actions**: Automates workflow for build, test, and deploy.
-  - **Docker**: Containerizes application for consistent deployment.
-  - **Heroku / AWS / DigitalOcean**: (Optional) Hosts the deployed application.
+Recognizing design specifications from Figma ensures accurate implementation of layout, colors, and typography. This consistency elevates usability, professionalism, and brand trust.
 
 ---
 
-## 📬 Contributing
+### Primary Pages
 
-1. Fork the repository  
-2. Clone your fork:  
-   ```bash
-   git clone https://github.com/your-username/airbnb-clone-project.git
+| Page | Description |
+|------|-------------|
+| **Property Listing View** | Grid display of properties with filters |
+| **Listing Detailed View** | Gallery, description, amenities, booking form |
+| **Simple Checkout View** | Summary and payment form for finalizing booking |
+
+---
+
+### UI Components
+
+| Component | Description |
+|-----------|-------------|
+| **Navbar** | Logo, search bar, user navigation |
+| **Property Card** | Image, location, price, rating, favorite icon |
+| **Footer** | Site navigation, social links, copyright |
+| **Form Components** | Input fields, dropdowns, date picker |
+
+All components are modular, reusable, and mobile-responsive.
+
+---
+
+## 🗄️ Backend Overview
+
+### Technologies (Backend)
+
+- **Django** (Python-based framework)
+- **Django REST Framework** + **Graphene-Django (GraphQL)**
+- **PostgreSQL** for relational database
+- **JWT Authentication** for secure login
+- **Celery + Redis** for background tasks (emails, booking confirmations)
+
+---
+
+### API Endpoints
+
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| `/api/listings/` | GET | Retrieve all property listings |
+| `/api/listings/<id>/` | GET | Retrieve property by ID |
+| `/api/bookings/` | POST | Create new booking |
+| `/api/auth/register/` | POST | User registration |
+| `/api/auth/login/` | POST | Login and receive token |
+| `/api/user/bookings/` | GET | Authenticated user bookings |
+
+---
+
+### Database Models
+
+- **User**: Custom user model (email login)
+- **Listing**: Title, location, price, description, host
+- **Booking**: Start/end date, user, property, guests
+- **Review**: Rating, comments, linked to listings
+
+---
+
+### Authentication
+
+- **JWT Tokens** for secure, stateless session handling
+- Middleware to protect sensitive routes
+- Password hashing and user verification workflows
+
+---
+
+## 🚀 Deployment Strategy
+
+| Tool | Purpose |
+|------|---------|
+| **Vercel** | Host the frontend |
+| **Heroku / Render** | Deploy Django backend |
+| **Docker** | Containerize services for local/dev |
+| **GitHub Actions** | CI/CD workflow automation |
+
+---
+
+## 🧪 Testing Strategy
+
+| Test Type | Tool |
+|-----------|------|
+| Unit Testing | Jest (Frontend), Pytest (Backend) |
+| Integration Testing | React Testing Library |
+| E2E Testing | Cypress |
+| Manual QA | GitHub Projects Board for bugs |
+
+---
+
+## 👥 Project Roles and Responsibilities
+
+| Role | Responsibilities |
+|------|------------------|
+| **Project Manager** | Oversees deadlines, team sync, and priorities |
+| **Frontend Developers** | Build UI components, integrate APIs |
+| **Backend Developers** | Design database, build REST & GraphQL APIs |
+| **Designers** | Design UI, ensure accessibility and UX |
+| **QA Engineers** | Write and run tests, track issues |
+| **DevOps Engineers** | Manage deployment pipelines and cloud setup |
+| **Product Owner** | Define features, prioritize tasks |
+| **Scrum Master** | Run agile ceremonies and remove blockers |
+
+---
+
+## 📅 Timeline
+
+| Date | Milestone |
+|------|-----------|
+| **Apr 28** | GitHub Repo Initialization & UI Planning |
+| **Apr 29 – 30** | Build Main Pages (Home, Listings, Detail) |
+| **May 1 – 2** | Backend API integration & Checkout logic |
+| **May 3 – 4** | Responsive design finalization & Testing |
+| **May 5** | Final QA + Deployment + Presentation Prep |
+
+---
+
+## 📝 Contributing
+
+We welcome contributions! Here's how:
+
+1. Fork this repository  
+2. Create your branch: `git checkout -b feature/your-feature`  
+3. Commit your changes: `git commit -m 'Add your feature'`  
+4. Push to the branch: `git push origin feature/your-feature`  
+5. Submit a Pull Request  
+
+---
+
+## 📎 Resources
+
+- [React Docs](https://reactjs.org/)
+- [Next.js Docs](https://nextjs.org/)
+- [TailwindCSS Docs](https://tailwindcss.com/)
+- [Django REST Framework](https://www.django-rest-framework.org/)
+- [Graphene for Django](https://docs.graphene-python.org/)
+- [PostgreSQL Docs](https://www.postgresql.org/docs/)
+- [Figma](https://www.figma.com/)
+- [JWT Auth](https://jwt.io/)
+- [Airbnb Official](https://www.airbnb.com/)
+
+---
+
+<p align="center"><strong>Crafted by Team StayEase ✨ | 2025</strong></p>
