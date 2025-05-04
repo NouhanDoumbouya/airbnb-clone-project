@@ -158,7 +158,7 @@ All components are modular, reusable, and mobile-responsive.
 ---
 
 ### Authentication
-
+### API SECURITY
 - **JWT Tokens** for secure, stateless session handling
 - Middleware to protect sensitive routes
 - Password hashing and user verification workflows
