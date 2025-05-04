@@ -148,7 +148,7 @@ All components are modular, reusable, and mobile-responsive.
 
 ---
 
-### Database Models
+### Database Design
 
 - **User**: Custom user model (email login)
 - **Listing**: Title, location, price, description, host
