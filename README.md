@@ -62,7 +62,7 @@ Welcome to **StayEase**, a full-stack clone of the Airbnb platform. This project
 - Maintain visual consistency and fast-loading UI
 - Prioritize mobile responsiveness and accessibility
 
-#### Key Features
+#### Feature Breakdown
 
 - Search and filter properties by criteria
 - View property details including gallery and reviews
