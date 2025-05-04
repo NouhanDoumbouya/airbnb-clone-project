@@ -121,7 +121,7 @@ All components are modular, reusable, and mobile-responsive.
 
 ##  Backend Overview
 
-### Technologies (Backend)
+### Technology Stack (Backend)
 
 | Technology       | Purpose                                                                 |
 |------------------|-------------------------------------------------------------------------|
