@@ -168,6 +168,8 @@ All components are modular, reusable, and mobile-responsive.
 
 ## 🚀 Deployment Strategy
 
+## CI/CD Pipeline
+
 | Tool | Purpose |
 |------|---------|
 | **Vercel** | Host the frontend |
