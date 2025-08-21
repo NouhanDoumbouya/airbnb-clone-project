@@ -190,7 +190,7 @@ All components are modular, reusable, and mobile-responsive.
 
 ---
 
-##  Project Roles and Responsibilities
+##  Team Roles
 
 | Role | Responsibilities |
 |------|------------------|
