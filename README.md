@@ -40,7 +40,7 @@ Welcome to **StayEase**, a full-stack clone of the Airbnb platform. This project
 - Real-time booking process with secure payment
 - Scalable architecture and modular component design
 
----
+-----
 
 ##  Frontend Overview
 
